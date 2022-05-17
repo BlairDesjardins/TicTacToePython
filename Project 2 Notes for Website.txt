@@ -1,0 +1,106 @@
+Project 2 Game Plan
+
+Web Page "Look"
+
+Color Screens for Home Page
+
+Black
+
+Chalk board - 31343A?, 495258 <-- Background
+
+Game Colors
+
+Pastel Pink - 255
+Pastel Orange - 
+Pastel Green - 181
+Pastel Blue - 
+
+
+Login Page ->		Nav Bars, takes you to:
+			Game Page 
+			Leaderboard
+			Profile
+
+		on Game Page
+
+	__|__|__	Your Move <- Modal
+	__|__|__
+	  |  |
+	
+
+		on Leaderboard Page
+
+	|_Rank__|______Your_Name___|__Wins/_Losses_____|
+	|_______|__________________|___________________|
+	|_______|__________________|___________________|
+	|_______|__________________|___________________|
+
+
+
+		on Profile Page
+
+	Name: _____________________
+	Wins: _____________________	Pic Goes Here? (Maybe a Stretch)
+	Losses: ___________________
+
+	Recent Games:
+	|_______________________________________________|
+	| 05/10/2022: |_________________________________|
+	| 05/12/2022: |_________________________________|
+	| 05/19/2022: |_________________________________|
+	|_____________|_________________________________|
+
+
+
+Stretch Goals
+	These Goals will be aligned with our project model, assuming we have time to get to them
+
+
+
+Level I
+			        __|__|__
+			        __|__|__		<--	Easy mode, 3 in a row wins
+			          |  |
+
+
+Level II
+		   	__|__|__	__|__|__
+		   	__|__|__	__|__|__	<--	Intermediate, have to win both? 
+		   	  |  |	 	  |  |
+
+				  OR
+
+		   __|__|__	__|__|__      __|__|__
+		   __|__|__	__|__|__      __|__|__	 <--	Have to win 2 out of 3
+		     |  |	  |  |	 	|  |
+
+
+
+Level III
+			       __|__|__
+			       __|__|__
+			         |  |
+		      __|__|__	        __|__|__
+		      __|__|__	        __|__|__	<--	Best 3 out of 4 wins
+		        |  |  	          |  |
+			       __|__|__
+			       __|__|__
+			         |  |
+
+
+Level IV?
+
+		    __|__|__	        __|__|__
+		    __|__|__	        __|__|__	<--	Best 3 out of 5 wins
+		      |  |		  |  |
+			      __|__|__
+			      __|__|__
+	  		        |  |
+		    __|__|__	        __|__|__
+		    __|__|__	        __|__|__
+		      |  |		  |  |
+
+
+
+Game logic will be in Python
+Game logins will be in Java
