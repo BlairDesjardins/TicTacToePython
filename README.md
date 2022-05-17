@@ -2,6 +2,7 @@
 
 
 MVP
+<br/>
 As a user, I should be able to log in
 As a player, I should be able to start a game with another player
 As a player, I should be able to join a game with another player
