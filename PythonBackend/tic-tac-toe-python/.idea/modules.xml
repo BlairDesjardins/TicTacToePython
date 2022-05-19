@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/tic-tac-toe-python.iml" filepath="$PROJECT_DIR$/.idea/tic-tac-toe-python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TicTacToeApp.iml" filepath="$PROJECT_DIR$/.idea/TicTacToeApp.iml" />
     </modules>
   </component>
 </project>

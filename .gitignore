@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+PythonBackend/tic-tac-toe-python/util/db_connection.py
