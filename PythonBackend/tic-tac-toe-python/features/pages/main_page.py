@@ -15,4 +15,3 @@ class TicTacToeMain:
 
     def end_game(self):
         return self.driver.find_element(By.ID, value='')
-

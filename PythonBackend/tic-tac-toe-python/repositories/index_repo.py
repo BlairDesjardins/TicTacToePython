@@ -6,7 +6,7 @@ from abc import abstractmethod, ABC
 class MainGameIndex (ABC):
 
     @abstractmethod
-    def create_game(self, game):  # <- was originally create_player but need to see if that's
+    def create_game(self, games):  # <- was originally create_player but need to see if that's
         pass                                      # a viable option
 
     @abstractmethod
