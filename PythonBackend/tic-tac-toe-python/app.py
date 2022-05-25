@@ -5,7 +5,7 @@ from flask_cors import CORS
 import controllers.frontcontroller as fc
 
 app = Flask(__name__)
-cors = CORS
+cors = CORS(app)
 app.config['CORS_HEADERS'] = 'CONTENT TYPE'
 
 fc.route(app)
