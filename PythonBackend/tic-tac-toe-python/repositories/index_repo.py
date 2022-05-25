@@ -14,6 +14,10 @@ class MainGameIndex (ABC):
         pass
 
     @abstractmethod
+    def get_all_games_by_id(self, u_id):
+        pass
+
+    @abstractmethod
     def update_game(self, game):
         pass
 
@@ -26,9 +30,9 @@ class MainGameIndex (ABC):
     #     pass
     #
     # @abstractmethod
-    # def end_game(self, is_finished):
+    # def game_state(self, game):
     #     pass
 
-    @abstractmethod
-    def game_statistics(self, game_stats):
-        pass
+    # @abstractmethod
+    # def update_game_state(self, game_state):
+    #     pass
