@@ -16,7 +16,7 @@ main_page = TicTacToeMain(driver)
 
 def _test():
     try:
-        driver.get("")
+        driver.get("http://localhost:5000/games")
         time.sleep(3)
         home_page.login().send_keys("username")
         home_page.login().send_keys("password")
