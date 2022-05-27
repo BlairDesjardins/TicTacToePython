@@ -29,7 +29,7 @@ class MainGameRepoImpl(MainGameIndex):
         sql = "SELECT * FROM games WHERE g_id = %s"
         cursor = connection.cursor()
 
-        cursor.execute(sql, g_id)
+        cursor.execute(sql, [g_id])
 
         connection.commit()
         record = cursor.fetchone()
