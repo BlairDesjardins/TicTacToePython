@@ -1,46 +1,29 @@
-# TicTacToeWebApp
+# Tic Tac Toe App - Python
 
+## Project Description
 
-MVP
-<br/>
-As a user, I should be able to log in
-<br/>
-As a player, I should be able to start a game with another player
-<br/>
-As a player, I should be able to join a game with another player
-<br/>
-As a player, I should be able to place a shape when it's my turn
-<br/>
-As a player, I should be not be able to play when it's not my turn
-<br/>
-As a player, I should win when I have 3 in a row
-<br/>
-As a player, I should lose when the other player has 3 in a row
-<br/>
-As a player, I should tie when the board is full and no one has 3 in a row
-<br/>
-As a player, I should be able to rematch after winning/losing
-<br/>
-As a player, I should see the game as X, O characters
+The Tic Tac Toe App is a simple way for two players to play Tic Tac Toe with each other using their browsers. When one player starts a game, they invite another player and they are assigned X and O respectively. From then on, they take turns placing their shapes until one player gets three in a row. Players may also see their wins and losses tracked on a global leaderboard. This involves individual player tracking of stats and information.
 
-Envisioned Goals
-<br/>
-As a player, I should see the game as pictures
-<br/>
-As a spectator, I should be able to watch a match i'm not playing in
-<br/>
-As a player, I should be able to see my wins/losses
-<br/>
-As a player, I should be able to view game history
-<br/>
-As a user, I should be able to see players ranked by win/loss ratio
-<br/>
-Stretch Goals
-<br/>
-As a player, I should be able to play more than game at a time
-<br/>
-As a player, I should be able to select levels for advanced tic tac toe
-<br/>
-As a player, I should be able to play on a 4x4 or 5x5 grid
-<br/>
-As a player, I should hear sound effects for winning/losing
+Frontend Github: https://github.com/BlairDesjardins/TicTacToeFrontend
+
+Java Backend Github: https://github.com/BlairDesjardins/TicTacToeJava
+
+## Technologies Used
+
+REST, SQL, JavaScript, Java, Python, Flask, Javalin, Selenium
+
+## Features
+
+List of features ready and TODOs for future development
+* Login in with username and password
+* Play Tic Tac Toe with others players
+
+* Todo: Leaderboard and user stat tracking
+
+## Getting Started
+
+1. Install Python 3 on your computer
+2. To clone the repo, type in command prompt: git clone https://github.com/BlairDesjardins/TicTacToePython.git
+3. Setup the db_connection.py file with your AWS RDS database
+4. Install Flask, psycopg2, Flask-Cors via the PyCharm terminal
+5. Run app.py in the Python app, run App.java in the Java app and open login.html
