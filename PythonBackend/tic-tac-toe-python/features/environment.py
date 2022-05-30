@@ -12,7 +12,8 @@ from features.pages.home_page import TicTacToeHome
 
 def before_all(context):
     driver: WebDriver = webdriver.Chrome(
-        'C:/Users/17146/PycharmProjects/pythonProject/Selenium Example/chromedriver.exe')
+        #     'C:/Users/17146/PycharmProjects/pythonProject/Selenium Example/chromedriver.exe')
+        'C:/Users/blair/Documents/Revature/chromedriver.exe')
     home_page = TicTacToeHome(driver)
 
     test = unittest.TestCase()
