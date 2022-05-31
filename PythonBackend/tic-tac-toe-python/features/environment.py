@@ -1,3 +1,4 @@
+import time
 import unittest
 
 from selenium import webdriver
@@ -17,6 +18,8 @@ def before_all(context):
     home_page = TicTacToeHome(driver)
 
     test = unittest.TestCase()
+
+    time.sleep(3)
 
     context.driver = driver
     context.home_page = home_page

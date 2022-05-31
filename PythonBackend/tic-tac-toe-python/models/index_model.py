@@ -31,3 +31,6 @@ class MainGamePage:
             "isFinished": self.is_finished,
             "winner": self.winner
         }
+
+    def __eq__(self, other):
+        return self.__dict__ == other.__dict__

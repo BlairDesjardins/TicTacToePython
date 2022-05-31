@@ -69,7 +69,7 @@ class MainGameRepoImpl(MainGameIndex):
         sql = "DELETE FROM games WHERE g_id=%s RETURNING *"
         cursor = connection.cursor()
 
-        cursor.execute(sql, g_id)
+        cursor.execute(sql, [g_id])
 
         connection.commit()
         record = cursor.fetchone()
